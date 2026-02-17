@@ -148,10 +148,8 @@ internal class Comix(context: MangaLoaderContext) :
             }
 
             // Default exclude adult content
-            addParam("genres[]=-87264") // Adult
             addParam("genres[]=-87266") // Hentai
             addParam("genres[]=-87268") // Smut
-            addParam("genres[]=-87265") // Ecchi
             addParam("limit=$pageSize")
             addParam("page=$page")
         }
